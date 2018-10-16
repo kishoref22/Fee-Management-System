@@ -1,0 +1,112 @@
+body {
+	background-image: url(../images/nature.jpg); 
+	background-size: cover;
+	margin:0;
+   padding:0;
+   font-family: sans-serif;
+   background-position: center;
+   height:100vh;
+}
+.admin_login {
+	width: 250px;
+	height: 410px;
+	background: rgba(0,0,0,0.5);
+	padding:10px;
+	margin-left:100px;
+	margin-top:60px;
+	float: left;
+	
+}
+.accountant_login {
+	
+	width: 270px;
+	height: 400px;
+	background: rgba(0,0,0,0.5);
+	padding:10px;
+	margin-left:800px;
+	margin-top:100px;
+}
+
+.admin_login h2 {
+	margin-left: 10px;
+	font_weight: bold;
+	color: #000;
+}
+.admin_login input[type= "text"],input[type="password"] {
+	
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+   height:30px;
+   background: transparent;
+   color: #fff;
+   font-size: 16px;
+}
+.accountant_login input[type= "text"],input[type="password"] {
+	
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+   height:30px;
+   background: transparent;
+   color: #fff;
+   font-size: 16px;
+}
+.admin_login input[type="submit"] {
+	border: none;
+	outline: none;
+	background: #1c8adb;
+   font-size: 18px;
+   height: 40px;
+   border-radius: 20px;
+   color: #fff;
+
+}
+.accountant_login input[type="submit"] {
+	border: none;
+	outline: none;
+	background: #1c8adb;
+   font-size: 18px;
+   height: 40px;
+   border-radius: 20px;
+   color: #fff;
+
+}
+.admin_login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.accountant_login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.admin_login h2 {
+	font-size:26px;
+	color:black;
+}
+.admin_login input[type="submit"]:hover {
+cursor: pointer;
+background: #f8f8ff;
+color: #000;
+}
+.accountant_login input[type="submit"]:hover {
+cursor: pointer;
+background: #f8f8ff;
+color: #000;
+}
+.admin_login h4 {
+	margin:40;
+	padding:0;
+	font-weight:bold;
+}
+.accountant_login h4 {
+	margin:40;
+	padding:0;
+	font-weight:none;
+}
+.admin_login div form h2 {
+	color:#fff;
+}
+.accountant_login div form h2 {
+	color:#fff;
+}

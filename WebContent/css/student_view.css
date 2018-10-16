@@ -1,0 +1,110 @@
+body {
+	background-color: rgb(240,240,240);
+	background-size :cover;
+	marin:0;
+	padding:0;
+	font-family: sans-sarif;
+	background-position:center;
+	background-repeat:no repeat;
+	height:100vh;
+    
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+header {
+	background-position: center;
+	background-size: cover;
+}
+.menu {
+	list-style-type: none;
+	float: left;
+   margin-top:25px;
+   margin-left:50px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: #000;
+	padding: 5px 20px;
+	transition:0.6s ease;
+
+}
+
+.menu li a:hover {
+	background-color: gray;
+	color: #000;
+}
+.headp {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.headp h1 {
+	font-size: 55px;
+	color: #fff;
+}
+.log li a {
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: #000;
+	padding: 5px 20px;
+	transition:0.6s ease;
+}
+.log li a:hover {
+	background-color: gray;
+	
+	color: #000;
+}
+.log li {
+	display: inline-block;
+}
+.log {
+	list-style-type: none;
+	float: right;
+   margin-top:25px;
+   margin-right:50px;
+}
+#table {
+	position:absolute;
+	margin-top:140px;
+	margin-left:140px;
+	background-color: rgb(220,220,220);
+	width:80%;
+	border-collapse:collapse;
+	}
+#table th,#table td {
+	border:1px solid #ddd;
+	padding:4px;	
+}
+#table tr:nth-child(even) {
+	background-color:#f2f2f2;
+}
+#table tr:hover {
+	background-color:lightgray;
+}
+#table th {
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	background-color:#4CAF50;
+	color:white;
+}
+.accountants h2 {
+	
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+body {
+	background-color:#000;
+	background-size: cover;
+	margin:0;
+	padding:0;
+	font-family: sans-sarif;
+	background-position:center;
+	background-repeat:no repeat;
+	height:100vh;
+}
+
+.header {
+	font-family:sans-sarif;
+	color:white;
+	padding:0px;
+	margin-left:20px;
+}
+#form {
+	margin-top:10%;
+	margin-left:15%;
+	background-color:transparent;
+	height:470px;
+	width:320px;
+	
+}
+#content p {
+	color:white;
+	padding:4px;
+	font-size:18px;
+}

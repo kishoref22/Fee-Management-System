@@ -1,0 +1,141 @@
+body {
+	background-image : url(../images/background.png);
+	background-size :cover;
+	marin:0;
+	padding:0;
+	font-family: sans-sarif;
+	background-position:center;
+	background-repeat:no repeat;
+	height:100vh;
+    
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+header {
+	background-position: center;
+	background-size: cover;
+}
+.menu {
+	list-style-type: none;
+	float: left;
+   margin-top:25px;
+   margin-left:50px;
+}
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: #fff;
+	padding: 5px 20px;
+	transition:0.5s ease;
+
+}
+
+
+.menu li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.headp {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.headp h1 {
+	font-size: 55px;
+	color: #fff;
+}
+.log li a {
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: #fff;
+	padding: 5px 20px;
+	transition:0.6s ease;
+}
+.log li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+.log li {
+	display: inline-block;
+}
+.log {
+	list-style-type: none;
+	float: right;
+   margin-top:25px;
+   margin-right:50px;
+}
+.add_form {
+	width: 360px;
+	height: 430px;
+	background: rgba(0,0,0,0.1);
+	padding:50px 30px;
+	top: 40%;
+	left: 20%;
+	color: rgb(255,255,255);
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	
+}
+.add_form input {
+	width:100%;
+	margin-bottom:20px;
+}
+.add_form input[type="text"],input[type="password"],input[type="number"]  {
+	border:none;
+	padding:3px;
+	border: 1px solid #fff;
+	outline: none;
+	height:20px;
+	background: transparent;
+	color: #fff;
+	font-size: 14px;
+	border-radius:3px;
+}
+.add_form textarea {
+	padding:3px;
+	border: 1px solid #fff;
+	outline:none;
+	height:50px;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	border-radius:3px;
+}
+
+.add_form input[type="submit"] {
+	border: none;
+	outline: none;
+	background: lightgray;
+   font-size: 15px;
+   height: 35px;
+   border-radius: 20px;
+   color: #000;
+
+}
+.add_form input[type="submit"]:hover {
+	cursor: pointer;
+	background: lightgray;
+	color:#000;
+}
+.add_form p {
+	margin:5px;
+	padding:0;
+	
+	font-size: 20px;
+}
+.add_form h2 {
+	margin-top:1px;
+	padding:10px;
+	font-weight:bold;
+}
+h2{
+	color:#fff;
+}
